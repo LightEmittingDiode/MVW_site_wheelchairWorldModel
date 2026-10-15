@@ -1696,6 +1696,10 @@
             "keydown",
             event => {
 
+              if (event.target.closest("a[href]")) {
+                return;
+              }
+
               if (
                 event.key !==
                   "Enter" &&
@@ -3820,9 +3824,9 @@
               id="passability-map"
             >
 
-              <span class="node-title">
+              <a class="node-title" href="https://lightemittingdiode.github.io/MVW_passabilityMap/?" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">
                 통행 지도
-              </span>
+              </a>
 
             </div>
 
