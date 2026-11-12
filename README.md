@@ -1,10 +1,10 @@
-# 자율주행 휠체어 월드 모델 아키텍처
+# 자율주행 휠체어 월드 모델 시각화
 
 센서 입력부터 인지, 특징 공학, 통합 월드 모델, 위험도 평가 및 디지털 트윈까지의 전체 구조를 인터랙티브 다이어그램으로 시각화한 프로젝트입니다.
 
-## Demo
+## 사이트
 
-https://lightemittingdiode.github.io/MoveAWheel_site_wheelchairWorldModel/
+https://lightemittingdiode.github.io/MVW_site_wheelchairWorldModel/
 
 ## 주요 구성
 
@@ -52,8 +52,3 @@ python -m http.server 8000
 
 처음 한 번은 GitHub 저장소의 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택해야 합니다.
 
-## 권장 저장소 정보
-
-- Repository name: `MoveAWheel_site_wheelchairWorldModel`
-- Description: `자율주행 휠체어의 센서·인지·월드 모델·디지털 트윈 구조를 시각화한 인터랙티브 아키텍처 다이어그램`
-- Topics: `autonomous-driving`, `wheelchair`, `world-model`, `digital-twin`, `sensor-fusion`, `robotics`, `architecture`, `visualization`
